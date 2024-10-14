@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ImageView de la bandera -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/bandera" />
+
+            <!-- EditText debajo de la bandera -->
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese nombre"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/etApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese apellido"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/etEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese edad"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/etTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese telefono"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/etTalla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese talla"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/etSanguineo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese grupo sanguineo"
+                android:minHeight="48dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTRAR"
+                android:id="@+id/btRegistrar"
+                android:backgroundTint="#3F51B5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MODIFICAR"
+                android:id="@+id/btModificar"
+                android:backgroundTint="#3F51B5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ELIMINAR"
+                android:id="@+id/btEliminar"
+                android:backgroundTint="#3F51B5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REPORTAR"
+                android:id="@+id/btReportar"
+                android:backgroundTint="#3F51B5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SALIR"
+                android:id="@+id/btSalir"
+                android:backgroundTint="#3F51B5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BUSCAR"
+                android:id="@+id/btBuscar"
+                android:backgroundTint="#3F51B5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRUEBA 1"
+                android:id="@+id/btPrueba1"
+                android:backgroundTint="#3F51B5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prueba2"
+                android:id="@+id/btPrueba2"
+                android:backgroundTint="#3F51B5"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prueba3"
+                android:id="@+id/btPrueba3"
+                android:backgroundTint="#3F51B5"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
